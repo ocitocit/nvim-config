@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/ocit/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/home/ocit/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
+  },
   ["nord.nvim"] = {
     loaded = true,
     path = "/home/ocit/.local/share/nvim/site/pack/packer/start/nord.nvim",
@@ -93,11 +98,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ocit/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
-  },
-  ["plenary.nvim"] = {
-    loaded = true,
-    path = "/home/ocit/.local/share/nvim/site/pack/packer/start/plenary.nvim",
-    url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["vim-ReplaceWithRegister"] = {
     loaded = true,

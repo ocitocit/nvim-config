@@ -34,7 +34,7 @@ return packer.startup(function(use)
   -- packer can manage itself
   use("wbthomason/packer.nvim")
 
-  use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
+  use("Mofiqul/dracula.nvim") -- lua functions that many plugins use
 
   use("shaunsingh/nord.nvim") -- preferred colorscheme
 
