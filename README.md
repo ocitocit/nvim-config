@@ -9,3 +9,6 @@ mkdir nvim
 cd nvim
 ````
 place it the files on nvim dir.
+
+## credit
+this base setting ive got from [josean-dev/dev-environment-files](https://github.com/josean-dev/dev-environment-files)
