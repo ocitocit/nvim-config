@@ -1,0 +1,6 @@
+require("ocitocit.plugins-setup")
+require("ocitocit.core.options")
+require("ocitocit.core.keymaps")
+require("ocitocit.core.colorscheme")
+require("ocitocit.plugins.comment")
+require("ocitocit.plugins.nvim-tree")
