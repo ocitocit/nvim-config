@@ -1,6 +1,9 @@
 # Usage
 place this files on  ~/.config/nvim
 
+## Require
+[Ripgrep](https://github.com/BurntSushi/ripgrep)
+
 make dir if you don't have that 
 ````
 mkdir .config
