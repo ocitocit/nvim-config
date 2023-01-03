@@ -23,7 +23,6 @@ mason_lspconfig.setup({
     "html",
     "cssls",
     "cssmodules_ls",
-    "eslint",
     "marksman",
     "tailwindcss",
     "sumneko_lua",
