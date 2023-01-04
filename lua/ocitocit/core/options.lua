@@ -11,7 +11,7 @@ opt.expandtab = true
 opt.autoindent = true
 
 -- line wrapping
-opt.wrap = false
+opt.wrap = true
 
 -- search settings
 opt.ignorecase = true
@@ -25,8 +25,8 @@ opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
 
--- backspace 
-opt. backspace = "indent,eol,start"
+-- backspace
+opt.backspace = "indent,eol,start"
 
 -- clipboard
 opt.clipboard:append("unnamedplus")
@@ -36,3 +36,8 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
+
+--blankline bracketpairs
+opt.list = true
+-- opt.listchars:append("space:⋅")
+-- opt.listchars:append("eol:↴")
