@@ -24,9 +24,7 @@ null_ls.setup({
 			condition = function(utils)
 				return utils.root_has_file(".eslintrc.json") -- change file extension if you use something else
 			end,
-			diagnostics_format = "[eslint] #{m}\n(#{c})",
 		}),
-		null_ls.builtins.diagnostics.fish,
 	},
 
 	on_attach = function(current_client, bufnr)
