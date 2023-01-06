@@ -211,6 +211,11 @@ _G.packer_plugins = {
     path = "/home/ocit/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["tokyodark.nvim"] = {
+    loaded = true,
+    path = "/home/ocit/.local/share/nvim/site/pack/packer/start/tokyodark.nvim",
+    url = "https://github.com/tiagovla/tokyodark.nvim"
+  },
   ["typescript.nvim"] = {
     loaded = true,
     path = "/home/ocit/.local/share/nvim/site/pack/packer/start/typescript.nvim",
