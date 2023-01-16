@@ -17,7 +17,17 @@ if not mason_null_ls_status then
 end
 
 -- enable mason
-mason.setup()
+mason.setup({
+	ui = {
+		height = 0.8,
+		width = 60,
+		icons = {
+			package_installed = "✓",
+			package_pending = "➜",
+			package_uninstalled = "✗",
+		},
+	},
+})
 
 mason_lspconfig.setup({
 	-- list of servers for mason to install
