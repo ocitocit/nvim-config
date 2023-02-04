@@ -41,3 +41,5 @@ opt.iskeyword:append("-")
 opt.list = true
 -- opt.listchars:append("space:⋅")
 -- opt.listchars:append("eol:↴")
+
+--Show hidden files
